@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A58B28C2A37FA7D00BFB886 /* MainFishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A58B28B2A37FA7D00BFB886 /* MainFishView.swift */; };
+		5A58B28E2A37FD5800BFB886 /* FishViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A58B28D2A37FD5800BFB886 /* FishViewControllerDelegate.swift */; };
+		5ADD264529F604F600E29EDE /* FishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD264429F604F600E29EDE /* FishViewController.swift */; };
+		5ADD264929F6056B00E29EDE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD264829F6056B00E29EDE /* SettingsViewController.swift */; };
+		5ADD264B29F6059600E29EDE /* SelectSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD264A29F6059600E29EDE /* SelectSettingsViewController.swift */; };
+		5ADD264D29F605DD00E29EDE /* SettingsViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD264C29F605DD00E29EDE /* SettingsViewController+.swift */; };
+		5ADD264F29F605FE00E29EDE /* SelectSettingsViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD264E29F605FE00E29EDE /* SelectSettingsViewController+.swift */; };
+		5ADD265229F6062F00E29EDE /* FishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD265129F6062F00E29EDE /* FishModel.swift */; };
+		5ADD265529F606E500E29EDE /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD265429F606E500E29EDE /* SettingsModel.swift */; };
+		5ADD265829F6071500E29EDE /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD265729F6071500E29EDE /* Base.swift */; };
+		5ADD265C29F608CC00E29EDE /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD265B29F608CC00E29EDE /* FishView.swift */; };
+		5ADD266129F6094D00E29EDE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD266029F6094D00E29EDE /* Animation.swift */; };
+		5ADD266329F6097200E29EDE /* FishConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD266229F6097200E29EDE /* FishConfig.swift */; };
+		5ADD266529F6099900E29EDE /* Reposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD266429F6099900E29EDE /* Reposition.swift */; };
+		5ADD266929F609EB00E29EDE /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD266829F609EB00E29EDE /* Rotation.swift */; };
+		5ADD266B29F609FF00E29EDE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD266A29F609FF00E29EDE /* Constants.swift */; };
+		94ADD53027BBEC660083DCCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ADD52F27BBEC660083DCCF /* AppDelegate.swift */; };
+		94ADD53227BBEC660083DCCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ADD53127BBEC660083DCCF /* SceneDelegate.swift */; };
+		94ADD53927BBEC670083DCCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ADD53827BBEC670083DCCF /* Assets.xcassets */; };
+		94ADD53C27BBEC670083DCCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ADD53A27BBEC670083DCCF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A58B28B2A37FA7D00BFB886 /* MainFishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFishView.swift; sourceTree = "<group>"; };
+		5A58B28D2A37FD5800BFB886 /* FishViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewControllerDelegate.swift; sourceTree = "<group>"; };
+		5ADD264429F604F600E29EDE /* FishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewController.swift; sourceTree = "<group>"; };
+		5ADD264829F6056B00E29EDE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5ADD264A29F6059600E29EDE /* SelectSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSettingsViewController.swift; sourceTree = "<group>"; };
+		5ADD264C29F605DD00E29EDE /* SettingsViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+.swift"; sourceTree = "<group>"; };
+		5ADD264E29F605FE00E29EDE /* SelectSettingsViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectSettingsViewController+.swift"; sourceTree = "<group>"; };
+		5ADD265129F6062F00E29EDE /* FishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishModel.swift; sourceTree = "<group>"; };
+		5ADD265429F606E500E29EDE /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		5ADD265729F6071500E29EDE /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		5ADD265B29F608CC00E29EDE /* FishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		5ADD266029F6094D00E29EDE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		5ADD266229F6097200E29EDE /* FishConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishConfig.swift; sourceTree = "<group>"; };
+		5ADD266429F6099900E29EDE /* Reposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reposition.swift; sourceTree = "<group>"; };
+		5ADD266829F609EB00E29EDE /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		5ADD266A29F609FF00E29EDE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		94ADD52C27BBEC660083DCCF /* CatchFishDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchFishDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94ADD52F27BBEC660083DCCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94ADD53127BBEC660083DCCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94ADD53827BBEC670083DCCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94ADD53B27BBEC670083DCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94ADD53D27BBEC670083DCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94ADD52927BBEC660083DCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A58B28F2A381DC100BFB886 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				94ADD52F27BBEC660083DCCF /* AppDelegate.swift */,
+				94ADD53127BBEC660083DCCF /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5AA167092A381EE700AFE994 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD266A29F609FF00E29EDE /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5ADD263E29F6039F00E29EDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD264C29F605DD00E29EDE /* SettingsViewController+.swift */,
+				5ADD264E29F605FE00E29EDE /* SelectSettingsViewController+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5ADD263F29F603A900E29EDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD265129F6062F00E29EDE /* FishModel.swift */,
+				5ADD265429F606E500E29EDE /* SettingsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5ADD264029F603B000E29EDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD265B29F608CC00E29EDE /* FishView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5ADD264129F603BE00E29EDE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD264629F6053800E29EDE /* MainViewController */,
+				5ADD264729F6055000E29EDE /* Settings */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5ADD264229F603CC00E29EDE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD265D29F6090900E29EDE /* Animation */,
+				5ADD265E29F6091200E29EDE /* FishConfig */,
+				5ADD265F29F6092100E29EDE /* FishPosition */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5ADD264329F603E400E29EDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94ADD53827BBEC670083DCCF /* Assets.xcassets */,
+				94ADD53A27BBEC670083DCCF /* LaunchScreen.storyboard */,
+				94ADD53D27BBEC670083DCCF /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ADD264629F6053800E29EDE /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A58B28D2A37FD5800BFB886 /* FishViewControllerDelegate.swift */,
+				5ADD264429F604F600E29EDE /* FishViewController.swift */,
+				5A58B28B2A37FA7D00BFB886 /* MainFishView.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		5ADD264729F6055000E29EDE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD264829F6056B00E29EDE /* SettingsViewController.swift */,
+				5ADD264A29F6059600E29EDE /* SelectSettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5ADD265629F606FC00E29EDE /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD265729F6071500E29EDE /* Base.swift */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		5ADD265A29F6080900E29EDE /* Data Storage */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD265629F606FC00E29EDE /* UserDefault */,
+			);
+			path = "Data Storage";
+			sourceTree = "<group>";
+		};
+		5ADD265D29F6090900E29EDE /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD266029F6094D00E29EDE /* Animation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		5ADD265E29F6091200E29EDE /* FishConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD266229F6097200E29EDE /* FishConfig.swift */,
+			);
+			path = FishConfig;
+			sourceTree = "<group>";
+		};
+		5ADD265F29F6092100E29EDE /* FishPosition */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD266429F6099900E29EDE /* Reposition.swift */,
+				5ADD266829F609EB00E29EDE /* Rotation.swift */,
+			);
+			path = FishPosition;
+			sourceTree = "<group>";
+		};
+		94ADD52327BBEC660083DCCF = {
+			isa = PBXGroup;
+			children = (
+				94ADD52E27BBEC660083DCCF /* CatchFishDemo */,
+				94ADD52D27BBEC660083DCCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94ADD52D27BBEC660083DCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94ADD52C27BBEC660083DCCF /* CatchFishDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94ADD52E27BBEC660083DCCF /* CatchFishDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A58B28F2A381DC100BFB886 /* Application */,
+				5AA167092A381EE700AFE994 /* Constants */,
+				5ADD265A29F6080900E29EDE /* Data Storage */,
+				5ADD263E29F6039F00E29EDE /* Extensions */,
+				5ADD263F29F603A900E29EDE /* Model */,
+				5ADD264029F603B000E29EDE /* View */,
+				5ADD264129F603BE00E29EDE /* Scenes */,
+				5ADD264229F603CC00E29EDE /* Services */,
+				5ADD264329F603E400E29EDE /* Supporting Files */,
+			);
+			path = CatchFishDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94ADD52B27BBEC660083DCCF /* CatchFishDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94ADD54027BBEC670083DCCF /* Build configuration list for PBXNativeTarget "CatchFishDemo" */;
+			buildPhases = (
+				94ADD52827BBEC660083DCCF /* Sources */,
+				94ADD52927BBEC660083DCCF /* Frameworks */,
+				94ADD52A27BBEC660083DCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchFishDemo;
+			productName = M21_Homework;
+			productReference = 94ADD52C27BBEC660083DCCF /* CatchFishDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94ADD52427BBEC660083DCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					94ADD52B27BBEC660083DCCF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 94ADD52727BBEC660083DCCF /* Build configuration list for PBXProject "CatchFishDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94ADD52327BBEC660083DCCF;
+			productRefGroup = 94ADD52D27BBEC660083DCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94ADD52B27BBEC660083DCCF /* CatchFishDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94ADD52A27BBEC660083DCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ADD53C27BBEC670083DCCF /* LaunchScreen.storyboard in Resources */,
+				94ADD53927BBEC670083DCCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94ADD52827BBEC660083DCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADD264529F604F600E29EDE /* FishViewController.swift in Sources */,
+				5ADD266B29F609FF00E29EDE /* Constants.swift in Sources */,
+				5A58B28E2A37FD5800BFB886 /* FishViewControllerDelegate.swift in Sources */,
+				5ADD264F29F605FE00E29EDE /* SelectSettingsViewController+.swift in Sources */,
+				5ADD265C29F608CC00E29EDE /* FishView.swift in Sources */,
+				5ADD265229F6062F00E29EDE /* FishModel.swift in Sources */,
+				5A58B28C2A37FA7D00BFB886 /* MainFishView.swift in Sources */,
+				5ADD266329F6097200E29EDE /* FishConfig.swift in Sources */,
+				5ADD266529F6099900E29EDE /* Reposition.swift in Sources */,
+				94ADD53027BBEC660083DCCF /* AppDelegate.swift in Sources */,
+				5ADD264929F6056B00E29EDE /* SettingsViewController.swift in Sources */,
+				5ADD266929F609EB00E29EDE /* Rotation.swift in Sources */,
+				5ADD265529F606E500E29EDE /* SettingsModel.swift in Sources */,
+				94ADD53227BBEC660083DCCF /* SceneDelegate.swift in Sources */,
+				5ADD264D29F605DD00E29EDE /* SettingsViewController+.swift in Sources */,
+				5ADD264B29F6059600E29EDE /* SelectSettingsViewController.swift in Sources */,
+				5ADD265829F6071500E29EDE /* Base.swift in Sources */,
+				5ADD266129F6094D00E29EDE /* Animation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94ADD53A27BBEC670083DCCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94ADD53B27BBEC670083DCCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94ADD53E27BBEC670083DCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94ADD53F27BBEC670083DCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94ADD54127BBEC670083DCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CatchFishDemo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CatchFishDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94ADD54227BBEC670083DCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CatchFishDemo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CatchFishDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94ADD52727BBEC660083DCCF /* Build configuration list for PBXProject "CatchFishDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ADD53E27BBEC670083DCCF /* Debug */,
+				94ADD53F27BBEC670083DCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94ADD54027BBEC670083DCCF /* Build configuration list for PBXNativeTarget "CatchFishDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ADD54127BBEC670083DCCF /* Debug */,
+				94ADD54227BBEC670083DCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94ADD52427BBEC660083DCCF /* Project object */;
+}
