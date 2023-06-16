@@ -7,17 +7,12 @@ Pods/
 
 *.mp3
 
-# Graphics Interchange Format
-*.gif
 
 # RAW
 *.raw
 
 # Web P
 *.webp
-
-# Portable Network Graphics
-*.png
 
 # Animated Portable Network Graphics
 *.apng
